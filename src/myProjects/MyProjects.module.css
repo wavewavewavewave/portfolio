@@ -2,3 +2,17 @@
     height: 100vh;
     background-color: deepskyblue;
 }
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.projects {
+    border: 1px solid;
+    width: 100%;
+}
+
+.title{
+    background-color: red;
+}

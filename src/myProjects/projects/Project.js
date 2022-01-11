@@ -5,11 +5,17 @@ import s from './Project.module.css';
 function Project(props) {
     return (
         <div className={s.project}>
-            <div className={s.icon}></div>
-            <h3>{props.projectName}</h3>
-            <span>
-                {props.discription}
-            </span>
+            <div className={s.button}>
+                <button>Watch</button>
+            </div>
+            <div  className={s.discription}>
+                <h2>
+                    {props.projectName}
+                </h2>
+                <div>
+                    {props.discription}
+                </div>
+            </div>
         </div>
     );
 }

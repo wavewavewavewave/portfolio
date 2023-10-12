@@ -23,7 +23,9 @@ export const Menu = () => {
 const StyledMenu = styled.nav`
   ul {
     display: flex;
-    gap: 30px;
+    gap: 80px;
+    margin-top: 37px;
+    list-style: none;
     color: #FFFFFF;
     cursor: pointer;
   }

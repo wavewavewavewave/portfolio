@@ -10,7 +10,6 @@ export const Main = () => {
                 <div>
                     <h1>I am Nikita Shkrabov</h1>
                     <h2>Front-end Engineer</h2>
-                    {/*<span>24 years old</span>*/}
                 </div>
                 <StyledPhoto src={photo} alt={'photo'}/>
             </Wrapper>
@@ -26,7 +25,11 @@ const StyledMain = styled.div`
 `;
 
 const StyledPhoto = styled.img`
-  width: 330px;
-  height: 430px;
+  width: 380px;
+  height: 450px;
   object-fit: cover;
-`
+`;
+const MainTitle = styled.h1`
+`;
+const MainSubTitle = styled.h2`
+`;

@@ -27,6 +27,9 @@ const StyledSocialMenu = styled.nav`
   ul {
     display: flex;
     cursor: pointer;
-    gap: 30px;
+    list-style: none;
+    margin-top: 34px;
+    margin-right: 151px;
+    gap: 25px;
   }
 `

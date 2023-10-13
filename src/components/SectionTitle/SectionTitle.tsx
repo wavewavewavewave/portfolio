@@ -10,4 +10,5 @@ export const SectionTitle = styled.div`
   margin-left: 110px;
   font-weight: 600;
   line-height: normal;
+  padding-top: 100px;
 `

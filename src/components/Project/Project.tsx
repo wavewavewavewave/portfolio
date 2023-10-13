@@ -78,6 +78,6 @@ const StyledProjectBlock = styled.div`
   background: #0F1624;
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 70px;
   flex-direction: column;
 `;

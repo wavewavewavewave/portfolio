@@ -1,12 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
+import {WrapperType} from "../../types/types";
 
-type WrapperType = {
-    direction?: string,
-    justifyContent?: string,
-    align?: string,
-    wrap?: string,
-}
+
 export const Wrapper = styled.div<WrapperType>`
   display: flex;
   flex-direction: ${props => props.direction || 'row'};

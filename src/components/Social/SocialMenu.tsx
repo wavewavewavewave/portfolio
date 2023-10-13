@@ -4,7 +4,7 @@ import gitHub from "../../assets/mark-github-24.svg";
 import telegram from "../../assets/Vector.svg";
 import styled from "styled-components";
 
-export const SocialMenu = () => {
+export const  SocialMenu = () => {
     return (
         <StyledSocialMenu>
             <ul>

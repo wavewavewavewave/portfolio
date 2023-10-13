@@ -3,6 +3,9 @@ import styled from "styled-components";
 import {ProjectsArrayType} from "../../types/types";
 
 export const Project = (props: ProjectsArrayType) => {
+    const handleClick = () => {
+        window.open(props.url, '_blank');
+    };
     return (
         <StyledProjectBlock key={props.id}>
             <StyledScreenProject src={props.image}/>
@@ -11,10 +14,7 @@ export const Project = (props: ProjectsArrayType) => {
             <ProjectSubTitle>
                 {props.descriptions}
             </ProjectSubTitle>
-            <StyledButton>
-                <a href={props?.url}
-                   target={'_blank'}>Look it up</a>
-            </StyledButton>
+            <StyledButton onClick={handleClick}>Look it up</StyledButton>
         </StyledProjectBlock>
     );
 };

@@ -8,8 +8,8 @@ export const Main = () => {
         <StyledMain>
             <Wrapper align={'center'} justifyContent={'space-around'}>
                 <div>
-                    <h1>I am Nikita Shkrabov</h1>
-                    <h2>Front-end Engineer</h2>
+                    <MainTitle>I am Nikita Shkrabov</MainTitle>
+                    <MainSubTitle>Front-end Engineer</MainSubTitle>
                 </div>
                 <StyledPhoto src={photo} alt={'photo'}/>
             </Wrapper>
@@ -32,6 +32,21 @@ const StyledPhoto = styled.img`
   border: 5px solid #8643DC;
 `;
 const MainTitle = styled.h1`
+  color: #FFF;
+
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal
 `;
 const MainSubTitle = styled.h2`
+  width: 482px;
+  color: #BCBCBC;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 `;

@@ -1,25 +1,28 @@
 import React from 'react';
 import styled from "styled-components";
 import {Wrapper} from "../../components/Wrapper/Wrapper";
-import Genba from '../../assets/Project_screen/Genba_screen.jpg'
 import {SectionTitle} from "../../components/SectionTitle/SectionTitle";
+import {projectsArray} from "../../utils/constants/Constants";
 
 export const Projects = () => {
     return (
         <StyledProjects>
-            <Wrapper>
+            <Wrapper direction={'column'}>
                 <SectionTitle>
                     Projects
                 </SectionTitle>
-                <StyledProjectBlock>
-                    <StyledScreenProject src={Genba}/>
-                    <ProjectTitle>Genba</ProjectTitle>
-                    <ProjectSubTitle>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.
-                    </ProjectSubTitle>
-                    <StyledButton>Look it up</StyledButton>
-                </StyledProjectBlock>
+                {projectsArray.map((el) => (
+                    <div>
+                        <StyledProjectBlock key={el.id}>
+                            <StyledScreenProject src={el.image}/>
+                            <ProjectTitle>{el.title}</ProjectTitle>
+                            <ProjectSubTitle>
+                                {el.descriptions}
+                            </ProjectSubTitle>
+                            <StyledButton>Look it up</StyledButton>
+                        </StyledProjectBlock>
+                    </div>
+                ))}
             </Wrapper>
         </StyledProjects>
     );

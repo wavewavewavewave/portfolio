@@ -18,6 +18,6 @@ const StyledHeader = styled.header`
   background-color: #0F1624;
   display: flex;
   width: 100vw;
-  height: 100px;
+  min-height: 100px;
   justify-content: space-between;
 `

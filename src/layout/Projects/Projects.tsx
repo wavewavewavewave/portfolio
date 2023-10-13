@@ -26,6 +26,7 @@ export const Projects = () => {
 };
 const StyledProjects = styled.div`
   min-height: 100vh;
+  width: 100vw;
   background-color: #161D2A;;
   color: white;
 `;

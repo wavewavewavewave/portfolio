@@ -5,7 +5,7 @@ type WrapperType = {
     direction?: string,
     justifyContent?: string,
     align?: string,
-    wrap?: string
+    wrap?: string,
 }
 export const Wrapper = styled.div<WrapperType>`
   display: flex;

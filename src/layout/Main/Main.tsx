@@ -28,6 +28,8 @@ const StyledPhoto = styled.img`
   width: 380px;
   height: 450px;
   object-fit: cover;
+  border-radius: 50px 0px;
+  border: 5px solid #8643DC;
 `;
 const MainTitle = styled.h1`
 `;

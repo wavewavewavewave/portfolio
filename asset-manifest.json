@@ -1,20 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.b4bf607d.js",
+    "main.js": "/portfolio/static/js/main.8e35ea10.js",
     "static/js/787.25eaef86.chunk.js": "/portfolio/static/js/787.25eaef86.chunk.js",
+    "static/media/Leto_screen.png": "/portfolio/static/media/Leto_screen.a9abd1dbf9d06def0202.png",
+    "static/media/Pasalo_screen.jpg": "/portfolio/static/media/Pasalo_screen.5dc73b29bfb65f53c49b.jpg",
     "static/media/msg526458758-336844.jpg": "/portfolio/static/media/msg526458758-336844.609ae1d5085578a4c408.jpg",
+    "static/media/Genba_screen.jpg": "/portfolio/static/media/Genba_screen.1270b6ee2e2554279072.jpg",
+    "static/media/Alandal_screen.png": "/portfolio/static/media/Alandal_screen.cbe09ba2082314cbd660.png",
+    "static/media/Prague_coolpass.png": "/portfolio/static/media/Prague_coolpass.98baa11c728d53713b84.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ff4d0975cb8bd7c72ca0459d3d2b468.svg",
     "static/media/mark-github-24.svg": "/portfolio/static/media/mark-github-24.4b3abc065115d0369fad6dd35dba0b8b.svg",
     "static/media/Linkedin.svg": "/portfolio/static/media/Linkedin.51b095254d45cfe4d8ef5829caad10b8.svg",
     "index.html": "/portfolio/index.html",
     "static/media/Vector.svg": "/portfolio/static/media/Vector.111429418a5f89b72af1897a1d1f1130.svg",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.b4bf607d.js.map": "/portfolio/static/js/main.b4bf607d.js.map",
+    "main.8e35ea10.js.map": "/portfolio/static/js/main.8e35ea10.js.map",
     "787.25eaef86.chunk.js.map": "/portfolio/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b4bf607d.js"
+    "static/js/main.8e35ea10.js"
   ]
 }

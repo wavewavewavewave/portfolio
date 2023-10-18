@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {SectionTitle} from "../../components/SectionTitle/SectionTitle";
 import {Wrapper} from "../../components/Wrapper/Wrapper";
+import {AdditionalSkills} from "../../components/AdditionalSkills/AdditionalSkills";
 
 export const Skills = () => {
     return (
@@ -15,26 +16,25 @@ export const Skills = () => {
                 <Progress value={100} max={100}/>
                 <span>Css, Sass</span>
                 <Progress value={100} max={100}/>
-                <span>React, NextJs</span>
+                <span>JavaScript</span>
                 <Progress value={100} max={100}/>
+                <span>React, NextJs</span>
+                <Progress value={70} max={100}/>
                 <span>Styled component</span>
                 <Progress value={60} max={100}/>
                 <span>React Native</span>
                 <Progress value={50} max={100}/>
                 <span>Node, NestJS</span>
                 <Progress value={30} max={100}/>
-                <span>React Native</span>
-                <Progress value={30} max={100}/>
                 <span>TypeORM, SequalizeORM</span>
                 <Progress value={80} max={100}/>
                 <span>MeterialUI, TailwindCSS</span>
-                <Progress value={100} max={100}/>
-                <span>JavaScript</span>
                 <Progress value={70} max={100}/>
                 <span>TypeScript</span>
                 <Progress value={30} max={100}/>
                 <span>Docker, Docker compose</span>
             </Wrapper>
+                <AdditionalSkills/>
         </StyledSkills>
     );
 };

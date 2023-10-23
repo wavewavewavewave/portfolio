@@ -7,10 +7,10 @@ export const ExperienceBar = ({year}: any) => {
             <ExperienceBarContainer>
                 <ExperienceBarLine>
                     <ul>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
                     </ul>
                 </ExperienceBarLine>
             </ExperienceBarContainer>
@@ -44,16 +44,59 @@ const ExperienceBarLine = styled.div`
     background-color: #FFF;
     display: inline-block;
   }
-`;
+  li:nth-of-type(1)::before {
+    content: "2020";
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: #FFF;
+    margin-left: -14px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 
-const ExperienceBarLabel = styled.span`
-  width: 260px;
-  color: #FFF;
+  li:nth-of-type(2)::before {
+    content: "2021";
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: #FFF;
+    margin-left: -14px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 
-  text-align: center;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  li:nth-of-type(3)::before {
+    content: "2022";
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: #FFF;
+    margin-left: -14px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  li:nth-of-type(4)::before {
+    content: "2023";
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: #FFF;
+    margin-left: -14px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 `;

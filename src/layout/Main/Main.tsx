@@ -31,6 +31,7 @@ const StyledPhoto = styled.img`
   object-fit: cover;
   border-radius: 50px 0px;
   border: 5px solid #8643DC;
+  //margin-top: 40px;
 `;
 const MainTitle = styled.h1`
   color: #FFF;

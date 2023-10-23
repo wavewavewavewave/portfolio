@@ -29,20 +29,5 @@ const StyledProjects = styled.div`
   width: 100vw;
   background-color: #161D2A;;
   color: white;
+  padding-bottom: 140px;
 `;
-
-
-// const Progress = styled.progress`
-//   width: 100%;
-//   height: 10px;
-//   appearance: none;
-//
-//   &::-webkit-progress-bar {
-//     background-color: #162950;
-//     border-radius: 5px;
-//   }
-//
-//   &::-webkit-progress-value {
-//     background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-//     border-radius: 5px;
-//   }`;

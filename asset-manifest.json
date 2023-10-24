@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.ce551305.js",
+    "main.js": "/portfolio/static/js/main.466ffc72.js",
     "static/js/787.25eaef86.chunk.js": "/portfolio/static/js/787.25eaef86.chunk.js",
     "static/media/Leto_screen.png": "/portfolio/static/media/Leto_screen.a9abd1dbf9d06def0202.png",
     "static/media/Pasalo_screen.jpg": "/portfolio/static/media/Pasalo_screen.5dc73b29bfb65f53c49b.jpg",
@@ -10,6 +10,7 @@
     "static/media/Alandal_screen.png": "/portfolio/static/media/Alandal_screen.cbe09ba2082314cbd660.png",
     "static/media/Prague_coolpass.png": "/portfolio/static/media/Prague_coolpass.98baa11c728d53713b84.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ff4d0975cb8bd7c72ca0459d3d2b468.svg",
+    "static/media/drawing.svg": "/portfolio/static/media/drawing.8470a342c7a00fec67646860435db5ea.svg",
     "static/media/Vector2.svg": "/portfolio/static/media/Vector2.8b0a1e2d97ea18b7212fdb8e71aa0915.svg",
     "static/media/skill-icons_git.svg": "/portfolio/static/media/skill-icons_git.fda1f44449fc7edd6648bcc81a9798e5.svg",
     "static/media/skill-icons_figma-light.svg": "/portfolio/static/media/skill-icons_figma-light.13443543517c132c1330663e8418becb.svg",
@@ -18,11 +19,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/Vector.svg": "/portfolio/static/media/Vector.111429418a5f89b72af1897a1d1f1130.svg",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.ce551305.js.map": "/portfolio/static/js/main.ce551305.js.map",
+    "main.466ffc72.js.map": "/portfolio/static/js/main.466ffc72.js.map",
     "787.25eaef86.chunk.js.map": "/portfolio/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ce551305.js"
+    "static/js/main.466ffc72.js"
   ]
 }

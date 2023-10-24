@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const ExperienceBar = ({year}: any) => {
+export const ExperienceBar = () => {
     return (
         <>
             <ExperienceBarContainer>
@@ -43,6 +43,54 @@ const ExperienceBarLine = styled.div`
     border-radius: 83px;
     background-color: #FFF;
     display: inline-block;
+  }
+  li:nth-of-type(1)::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, risus quis tempus ultrices, diam felis lacinia nulla, nec sodales purus quam vel sapien.";
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    margin-left: -70px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFF;
+  }
+  li:nth-of-type(2)::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, risus quis tempus ultrices, diam felis lacinia nulla, nec sodales purus quam vel sapien.";
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    margin-left: -70px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFF;
+  }
+  li:nth-of-type(3)::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, risus quis tempus ultrices, diam felis lacinia nulla, nec sodales purus quam vel sapien.";
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    margin-left: -70px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFF;
+  }
+  li:nth-of-type(4)::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, risus quis tempus ultrices, diam felis lacinia nulla, nec sodales purus quam vel sapien.";
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    margin-left: -70px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFF;
   }
   li:nth-of-type(1)::before {
     content: "2020";

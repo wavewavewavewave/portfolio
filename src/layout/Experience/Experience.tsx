@@ -2,7 +2,6 @@ import React from 'react';
 import styled from "styled-components";
 import {SectionTitle} from "../../components/SectionTitle/SectionTitle";
 import {ExperienceBar} from "../../components/ExperienceBar/ExperienceBar";
-import {Wrapper} from "../../components/Wrapper/Wrapper";
 
 export const Experience = () => {
     return (
@@ -10,7 +9,7 @@ export const Experience = () => {
             <SectionTitle>
                 Experience
             </SectionTitle>
-            <ExperienceBar year={1932}/>
+            <ExperienceBar/>
         </StyledExperience>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import {SocialMenu} from "../../components/Social/SocialMenu";
 
 export const Footer = () => {
     return (
@@ -13,6 +14,9 @@ export const Footer = () => {
                 <StyledTextBlock
                     style={{display: "block", marginLeft: '50px'}}>nikitashkrabov@gmail.com</StyledTextBlock>
             </StyledTitleBlock>
+            <div style={{paddingLeft: '400px'}}>
+                <SocialMenu/>
+            </div>
         </StyledFooterBlock>
     );
 };
@@ -23,11 +27,10 @@ const StyledFooterBlock = styled.footer`
   width: 100vw;
   min-height: 150px;
   color: #FFF;
+  justify-content: space-evenly;
 `;
-const StyledTitleBlock = styled.span`
+const StyledTitleBlock = styled.div`
   color: #FFF;
-  padding-left: 150px;
-  min-width: 140px;
   padding-top: 43px;
   font-family: Poppins;
   font-size: 22px;

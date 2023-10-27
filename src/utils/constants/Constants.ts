@@ -7,10 +7,12 @@ import linkedIn from '../../assets/Linkedin.svg';
 import gitHub from '../../assets/mark-github-24.svg';
 import telegram from '../../assets/Vector.svg';
 
+export const CONSTANT_TITLE_NAME = 'I am Nikita Shkrabov';
+export const CONSTANT_TITLE_PROFESSION = 'Front-end Engineer';
 export const headerMenuArray = [
     {id: 1, title: 'Projects'},
     {id: 2, title: 'Technologies'},
-    {id: 3, title: 'About me'}
+    {id: 3, title: 'About me'},
 ];
 export const socialMenuArray = [
     {id: 1, image: gitHub},

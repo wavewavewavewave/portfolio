@@ -3,14 +3,15 @@ import styled from "styled-components";
 import photo from '../../assets/msg526458758-336844.jpg'
 import {Wrapper} from "../../components/Wrapper/Wrapper";
 import draw from '../../assets/drawing.svg';
+import {CONSTANT_TITLE_NAME, CONSTANT_TITLE_PROFESSION} from "../../utils/constants/Constants";
 
 export const Main = () => {
     return (
         <StyledMain>
             <Wrapper align={'center'} justifyContent={'space-around'}>
                 <div>
-                    <MainTitle>I am Nikita Shkrabov</MainTitle>
-                    <MainSubTitle>Front-end Engineer</MainSubTitle>
+                    <MainTitle>{CONSTANT_TITLE_NAME}</MainTitle>
+                    <MainSubTitle>{CONSTANT_TITLE_PROFESSION}</MainSubTitle>
                 </div>
                 <StyledPhoto src={photo} alt={'photo'}/>
                 <StyledDraw src={draw} alt={'draw'}/>

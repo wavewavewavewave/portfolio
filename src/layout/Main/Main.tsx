@@ -22,7 +22,7 @@ export const Main = () => {
 
 const StyledMain = styled.div`
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: #0F1624;
   color: white;
 `;

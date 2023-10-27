@@ -16,7 +16,7 @@ export const Experience = () => {
 
 const StyledExperience = styled.div`
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: #161D2A;
   color: white;
   padding-bottom: 140px;

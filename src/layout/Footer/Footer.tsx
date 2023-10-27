@@ -24,7 +24,7 @@ export const Footer = () => {
 const StyledFooterBlock = styled.footer`
   background-color: #0F1624;
   display: flex;
-  width: 100vw;
+  width: 100%;
   min-height: 150px;
   color: #FFF;
   justify-content: space-evenly;

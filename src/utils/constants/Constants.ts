@@ -50,36 +50,74 @@ export const skillsArray = [
     {
         id: 1,
         title: 'HTML',
+        value: 100,
+        max: 100,
     },
     {
         id: 2,
-        title: 'HTML',
+        title: 'Css, Sass',
+        value: 100,
+        max: 100,
     },
     {
         id: 3,
-        title: 'HTML',
+        title: 'JavaScript',
+        value: 100,
+        max: 100,
     },
     {
         id: 4,
-        title: 'HTML',
+        title: 'TypeScript',
+        value: 50,
+        max: 100,
     },
     {
         id: 5,
-        title: 'HTML',
+        title: 'React, NextJs',
+        value: 100,
+        max: 100,
     },
     {
         id: 6,
-        title: 'HTML',
-    }, {
+        title: 'React Native',
+        value: 60,
+        max: 100,
+    },
+    {
         id: 7,
-        title: 'HTML',
+        title: 'Redux, Redux toolkit, RTK Query',
+        value: 80,
+        max: 100,
     },
     {
         id: 8,
-        title: 'HTML',
+        title: 'Styled component',
+        value: 70,
+        max: 100,
     },
     {
         id: 9,
-        title: 'HTML',
+        title: 'MeterialUI, TailwindCSS',
+        value: 70,
+        max: 100,
+    },
+    {
+        id: 10,
+        title: 'Node, NestJS',
+        value: 50,
+        max: 100,
+    },
+    {
+        id: 11,
+        title: 'TypeORM, SequalizeORM',
+        value: 30,
+        max: 100,
+    },
+
+    {
+        id: 12,
+        title: 'Docker, Docker compose',
+        value: 30,
+        max: 100,
     },
 ];

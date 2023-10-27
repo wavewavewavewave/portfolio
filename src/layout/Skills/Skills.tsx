@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {SectionTitle} from "../../components/SectionTitle/SectionTitle";
 import {Wrapper} from "../../components/Wrapper/Wrapper";
 import {AdditionalSkills} from "../../components/AdditionalSkills/AdditionalSkills";
+import {skillsArray} from "../../utils/constants/Constants";
 
 export const Skills = () => {
     return (
@@ -11,61 +12,12 @@ export const Skills = () => {
                 Technologies
             </SectionTitle>
             <Wrapper justifyContent={'center'} align={'center'} direction={'column'}>
-                <div style={{position: 'relative'}}>
-                    <Progress value={100} max={100}/>
-                    <TitleSkill>HTML</TitleSkill>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={100} max={100}/>
-                    <span style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>Css, Sass</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={100} max={100}/>
-                    <span style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>JavaScript</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={100} max={100}/>
-                    <span style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>React, NextJs</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={70} max={100}/>
-                    <span
-                        style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>Styled component</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={60} max={100}/>
-                    <span style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>React Native</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={50} max={100}/>
-                    <span style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>Node, NestJS</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={30} max={100}/>
-                    <span style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: '10px',
-                        marginTop: '80px'
-                    }}>TypeORM, SequalizeORM</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={80} max={100}/>
-                    <span style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>MeterialUI, TailwindCSS</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={70} max={100}/>
-                    <span style={{position: 'absolute', top: 0, left: '10px', marginTop: '80px'}}>TypeScript</span>
-                </div>
-                <div style={{position: 'relative'}}>
-                    <Progress value={30} max={100}/>
-                    <span style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: '10px',
-                        marginTop: '80px'
-                    }}>Docker, Docker compose</span>
-                </div>
+                {skillsArray.map((el) => (
+                    <div style={{position: 'relative'}} key={el.id}>
+                        <Progress value={el.value} max={el.max}/>
+                        <TitleSkill>{el.title}</TitleSkill>
+                    </div>
+                ))}
             </Wrapper>
             <AdditionalSkills/>
         </StyledSkills>
@@ -99,4 +51,11 @@ const TitleSkill = styled.span`
   top: 0;
   left: 10px;
   margin-top: 80px;
+  color: #FFF;
+
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 `

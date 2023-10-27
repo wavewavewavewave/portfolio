@@ -3,21 +3,20 @@ import linkedIn from "../../assets/Linkedin.svg";
 import gitHub from "../../assets/mark-github-24.svg";
 import telegram from "../../assets/Vector.svg";
 import styled from "styled-components";
+import {socialMenuArray} from "../../utils/constants/Constants";
+import {SocialMenuType} from "../../types/types";
 
-export const  SocialMenu = () => {
+export const SocialMenu = () => {
     return (
         <StyledSocialMenu>
             <ul>
-                <li>
-                    <img src={gitHub} alt={'logo'}/>
-                </li>
-                <li>
-                    <a href={'https://www.linkedin.com/in/mikita-shkrabau-b5806a21b/'} target={'_blank'}><img
-                        src={linkedIn} alt={'logo'}/></a>
-                </li>
-                <li>
-                    <img src={telegram} alt={'logo'}/>
-                </li>
+                {socialMenuArray.map((el: SocialMenuType) => (
+                    <li key={el.id}>
+                        <a href={el?.href} target={'_blank'}>
+                            <img src={el.image} alt={'logo'}/>
+                        </a>
+                    </li>
+                ))}
             </ul>
         </StyledSocialMenu>
     );

@@ -3,7 +3,20 @@ import Alandal from '../../assets/Project_screen/Alandal_screen.png';
 import CoolPass from '../../assets/Project_screen/Prague_coolpass.png';
 import Leto from '../../assets/Project_screen/Leto_screen.png';
 import Pasalo from '../../assets/Project_screen/Pasalo_screen.jpg'
+import linkedIn from '../../assets/Linkedin.svg';
+import gitHub from '../../assets/mark-github-24.svg';
+import telegram from '../../assets/Vector.svg';
 
+export const headerMenuArray = [
+    {id: 1, title: 'Projects'},
+    {id: 2, title: 'Technologies'},
+    {id: 3, title: 'About me'}
+];
+export const socialMenuArray = [
+    {id: 1, image: gitHub},
+    {id: 2, image: linkedIn, href: '\'https://www.linkedin.com/in/mikita-shkrabau-b5806a21b/\''},
+    {id: 3, image: telegram, href: 'https://t.me/prohozhii'},
+];
 export const projectsArray = [
     {
         id: 0,

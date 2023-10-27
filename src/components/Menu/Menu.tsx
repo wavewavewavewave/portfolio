@@ -1,20 +1,18 @@
 import React from 'react';
 import styled from "styled-components";
+import {headerMenuArray} from "../../utils/constants/Constants";
+import {HeaderMenuType} from "../../types/types";
 
 
 export const Menu = () => {
     return (
         <StyledMenu>
             <ul>
-                <li>
-                    <a>Projects</a>
-                </li>
-                <li>
-                    <a>Technologies</a>
-                </li>
-                <li>
-                    <a>About me</a>
-                </li>
+                {headerMenuArray.map((el: HeaderMenuType) => (
+                    <li key={el.id}>
+                        <a>{el.title}</a>
+                    </li>
+                ))}
             </ul>
         </StyledMenu>
     );

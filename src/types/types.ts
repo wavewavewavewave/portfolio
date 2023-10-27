@@ -10,4 +10,13 @@ export type WrapperType = {
     justifyContent?: string,
     align?: string,
     wrap?: string,
-}
+};
+export type HeaderMenuType = {
+    id: number;
+    title: string;
+};
+export type SocialMenuType = {
+    id: number;
+    image: string;
+    href?: string;
+};

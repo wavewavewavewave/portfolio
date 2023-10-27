@@ -22,10 +22,10 @@ export const projectsArray = [
         url: 'https://www.google.com/search?q=alandal&sca_esv=573181861&sxsrf=AM9HkKni35THaB1e3nsiXqy5fVMje3NiXw%3A1697201046812&ei=ljspZZ6XMdnWwPAPuKavwAE&oq=Alan&gs_lp=Egxnd3Mtd2l6LXNlcnAiBEFsYW4qAggAMgcQIxiKBRgnMgsQLhiABBixAxiDATILEC4YgwEYsQMYgAQyCxAuGIAEGLEDGIMBMgUQLhiABDIFEAAYgAQyBRAuGIAEMgUQLhiABDIFEAAYgAQyBRAAGIAESM0RUABY6AZwAHgBkAEAmAF4oAGrA6oBAzEuM7gBAcgBAPgBAcICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMYxwEY0QPCAhEQLhiABBixAxiDARjHARjRA8ICCxAAGIoFGLEDGIMBwgIEECMYJ8ICCxAuGIAEGMcBGNED4gMEGAAgQYgGAQ&sclient=gws-wiz-serp',
     },
     {
-      id: 2,
-      title: 'CoolPass',
-      descriptions: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\n' +
-          '                        incididunt ut labore et dolore magna aliqua.',
+        id: 2,
+        title: 'CoolPass',
+        descriptions: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\n' +
+            '                        incididunt ut labore et dolore magna aliqua.',
         image: CoolPass,
         url: 'https://www.google.com/search?q=coolpass+prague&sca_esv=573181861&sxsrf=AM9HkKnXCxeWEyL__d9y9UIXUGCM3-4xQw%3A1697201821112&ei=nT4pZdijBpuL9u8P7MCHsAI&ved=0ahUKEwiY5qK9ifOBAxWbhf0HHWzgASYQ4dUDCBA&oq=Cool&gs_lp=Egxnd3Mtd2l6LXNlcnAiBENvb2wyBxAjGIoFGCcyBhAAGBYYHjIGEAAYFhgeSMYkUMoDWLoIcAF4AZABAJgBjgGgAZIFqgEDMC41uAEMyAEA-AEBqAIUwgIHECMY6gIYJ8ICFhAAGAMYjwEY5QIY6gIYtAIYjAPYAQHCAhYQLhgDGI8BGOUCGOoCGLQCGIwD2AEBwgIHEAAYigUYQ8ICBxAuGIoFGEPCAgsQLhiABBjHARjRA8ICCxAAGIoFGLEDGIMBwgIREC4YgAQYsQMYgwEYxwEY0QPCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIFEAAYgATCAgsQLhiABBjHARivAcICBRAuGIAE4gMEGAAgQYgGAboGBggBEAEYCw&sclient=gws-wiz-serp',
     },
@@ -45,4 +45,41 @@ export const projectsArray = [
         image: Pasalo,
         url: 'https://www.google.com/search?q=Pasalo&sca_esv=573181861&sxsrf=AM9HkKnUeeki0j_2C6UQYQC4QuKqWQmj7Q%3A1697201879304&ei=1z4pZZeaEsTSwPAP8emzkA0&ved=0ahUKEwjX4YLZifOBAxVEKRAIHfH0DNIQ4dUDCBA&uact=5&oq=Pasalo&gs_lp=Egxnd3Mtd2l6LXNlcnAiBlBhc2FsbzIHECMYigUYJzIFEAAYgAQyBxAAGIAEGAoyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYFBiHAjIFEAAYgARIhQ1QAFitC3AAeAGQAQCYAakBoAGVBqoBAzAuNrgBA8gBAPgBAcICBBAjGCfCAgcQLhiKBRhDwgILEAAYgAQYsQMYgwHCAgcQABiKBRhDwgIIEAAYgAQYsQPCAg0QLhiKBRjHARivARhDwgILEAAYigUYsQMYgwHCAhEQLhiKBRixAxiDARjHARjRA8ICBRAuGIAEwgINEAAYgAQYsQMYgwEYCsICChAAGIAEGLEDGArCAgsQLhiABBjHARivAeIDBBgAIEGIBgE&sclient=gws-wiz-serp',
     }
-]
+];
+export const skillsArray = [
+    {
+        id: 1,
+        title: 'HTML',
+    },
+    {
+        id: 2,
+        title: 'HTML',
+    },
+    {
+        id: 3,
+        title: 'HTML',
+    },
+    {
+        id: 4,
+        title: 'HTML',
+    },
+    {
+        id: 5,
+        title: 'HTML',
+    },
+    {
+        id: 6,
+        title: 'HTML',
+    }, {
+        id: 7,
+        title: 'HTML',
+    },
+    {
+        id: 8,
+        title: 'HTML',
+    },
+    {
+        id: 9,
+        title: 'HTML',
+    },
+];
